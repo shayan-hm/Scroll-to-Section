@@ -36,7 +36,7 @@ nav ul li a:hover {
 section {
   min-height: 100vh;
   padding: 40px;
-  margin-top: 50px; /* Add margin to avoid overlap with the fixed navbar */
+  margin-top: 50px;
 }
 
 #home {
