@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+section {
+  min-height: 100vh;
+  padding: 40px;
+  margin-top: 50px; /* Add margin to avoid overlap with the fixed navbar */
+}
+
+#home {
+  background-color: #f4f4f4;
+}
+#about {
+  background-color: #e2e2e2;
+}
+#services {
+  background-color: #d1d1d1;
+}
+#contact {
+  background-color: #c0c0c0;
+}
